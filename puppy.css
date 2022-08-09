@@ -539,3 +539,9 @@ display: flex;
 .right-container{
     display: flex;
 }
+
+p.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
