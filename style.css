@@ -15,7 +15,7 @@ header{
     color: #fff;
     padding: 2rem 8rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 550px) {
     .hero-section{
       display: flex;
       flex-direction: column;
@@ -34,14 +34,41 @@ header{
         display: flex;
         flex-direction: column;
     }
+    .section-4{
+        display: flex;
+        flex-direction: column;
+    }
+    .hip-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .leg-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .smallimagesflex{
+        display: flex;
+        flex-direction: column;
+    }
+    .set-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .glass-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .glass-contain{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
   }
-/* .hero-section{
-    background-color: #025440;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; */
-    /* align-items: flex-start; */
-/* } */
+/***Hero-section**/
 
 .hero_Text{
     /* padding-bottom: 150px; */
@@ -182,24 +209,24 @@ color:#7A7A7A;
 
     border: 1px solid whitesmoke;
     margin: 0px 5px;
-    box-shadow: 0.5px 0.1px 0.5px;
+   box-shadow: -0.5px 0.1px 3px 0px;
 }
 
 .cell-1 p{
-    height: 82px;
-    width: 239px;
+    height: 120px;
+    width: 235px;
 
 }
 
 .cell-2{
     border: 1px solid whitesmoke;
     margin: 0px 5px;
-    box-shadow: 0.5px o.1px 0.5px;
+   box-shadow: -0.5px 0.1px 3px 0px;
 }
 
 .cell-2 p{
-    height: 91px;
-    width: 264px;
+    height: 120px;
+    width: 235px;
 
 
 }
@@ -207,44 +234,45 @@ color:#7A7A7A;
 .cell-3{
     border: 1px solid whitesmoke;
     margin: 0px 5px;
-    box-shadow: 0.5px o.1px 0.5px;
+   box-shadow: -0.5px 0.1px 3px 0px;
 }
 
 .cell-3 p{
-    height: 82px;
-    width: 239px;
+    height: 120px;
+    width: 235px;
 
 
 }
 .cell-4{
     border: 1px solid whitesmoke;
-    margin: 0px 5px;box-shadow: 0.5px o.1px 0.5px;
+    margin: 0px 5px;
+   box-shadow: -0.5px 0.1px 3px 0px;
 }
 
 .cell-4 p{
-    height: 58px;
-    width: 221.1px;
+    height: 120px;
+    width: 235px;
 
 }
 
 .cell-5{
     border: 1px solid whitesmoke;
     margin: 0px 5px;
-    box-shadow: 0.5px o.1px 0.5px;
+    box-shadow: -0.5px 0.1px 3px 0px;
 }
 .cell-5 p{
-    height: 54px;
-    width: 236px;
+    height: 120px;
+    width: 235px;
 }
 
 .cell-6{
     border: 1px solid whitesmoke;
     margin: 0px 5px;
-    box-shadow: 0.5px o.1px 0.5px;
+    box-shadow: -0.5px 0.1px 3px 0px;
 }
 .cell-6 p{
-    height: 85px;
-    width: 286px;
+    height: 120px;
+    width: 235px;
 
 
 }
