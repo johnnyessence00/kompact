@@ -15,6 +15,26 @@ header{
     color: #fff;
     padding: 2rem 8rem;
 }
+@media screen and (max-width: 768px) {
+    .hero-section{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .group-1{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .group-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-3{
+        display: flex;
+        flex-direction: column;
+    }
+  }
 /* .hero-section{
     background-color: #025440;
     display: flex;
@@ -119,12 +139,14 @@ section h2{
     justify-content: center;
     color: #484848;
     margin-top: 30px;
+    padding: 50px;
 }
 
 .group-1{
     display: flex;
-    margin: 100px;
-    margin-left: 202px;
+    /* margin: 100px; */
+    /* margin-left: 202px; */
+    justify-content: space-around;
 }
 
 .group-1 p{
@@ -151,8 +173,9 @@ color:#7A7A7A;
 
 .group-2{
     display: flex;
-    margin:100px;
-    margin-left: 202px;
+    /* margin:100px; */
+    /* margin-left: 202px; */
+    justify-content: space-around;
 }
 
 .cell-1{
@@ -239,8 +262,8 @@ color:#7A7A7A;
     font-weight: 700;
     line-height: 68px;
     letter-spacing: -0.3050532937049866px;
-    height: 205px;
-    width: 539px;
+    /* height: 205px; */
+    width: 595px;
     color:#484848;
     
 }
@@ -252,7 +275,7 @@ color:#7A7A7A;
     line-height: 29px;
     letter-spacing: -0.3050532937049866px;
     height: 117px;
-    width: 382px;
+    width: 383px;
     color: #7A7A7A;
 }
 .sec-3-text a{
