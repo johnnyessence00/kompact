@@ -20,6 +20,9 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+li{
+    list-style-type: none;
+}
 .logo-container{
     display: flex;
     align-items: center;
