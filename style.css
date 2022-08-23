@@ -15,7 +15,7 @@ header{
     color: #fff;
     padding: 2rem 8rem;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 500px) {
     .hero-section{
       display: flex;
       flex-direction: column;
@@ -87,9 +87,6 @@ header{
     font-weight: 200;
     /* margin-bottom: 400px; */
     color: #FFFFFF;
-}
-.logo_images{
-    /* margin-bottom: 200px; */
 }
 .heroimg img{
     width: 100%;
